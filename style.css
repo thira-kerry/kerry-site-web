@@ -1,0 +1,130 @@
+
+
+
+body {
+	font-family: 'Noto Sans JP', sans-serif;
+	padding: 01%;
+	margin: 0;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url('2.jpg');
+	
+}
+.presentation-image
+{
+	border: solid;
+	background-image: url('3.jpg');
+	background-repeat: repeat-x;
+	height: 125px;
+	text-align: center;
+	padding-top: 10px;
+
+
+}
+nav {
+	background-image: url('3.jpg');
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	position: sticky;
+	top: 0;
+	border: solid;
+}
+
+nav .profile {
+	display: flex;
+	align-items: center;
+
+}
+nav .profile img {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+}
+nav .profile h1 {
+	margin-left: 50px;
+	font-size: 15px;
+
+}
+nav ul {
+	display: flex;
+	list-style-type: none;
+}
+nav ul li {
+	margin-left: 40px;
+	cursor: pointer;
+	border-bottom: 1px solid rgb(255, 255, 255);
+}
+nav ul li:hover {
+	border-bottom-color: rgb(255, 255, 255);
+}
+
+.page-content {
+	margin: 5%;
+}
+.page-content header {
+	margin-top: 5%;
+	max-width: 80%;
+}
+.page-content header h1 {
+	margin: 0;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-size: 6vw;
+}
+.page-content header p {
+	line-height: 30px;
+	color: #ffffff;
+}
+.page-content header button {
+	background-color: inherit;
+	border: none;
+	outline: none;
+	padding: 0;
+	font-size: 15px;
+	font-weight: bold;
+	padding-bottom: 5px;
+	border-bottom: 1px solid rgb(255, 255, 255);
+	cursor: pointer;
+}
+.page-content header button:hover {
+	color: rgb(255, 255, 255);
+	border-bottom-color: rgb(255, 255, 255);
+}
+.page-content .presentation-image {
+	margin-top: 2%;
+}
+.page-content .presentation-image img {
+	max-width: 100%;
+	height: auto;
+	transition: filter 0.5s;
+}
+.page-content .presentation-image img:hover {
+	filter: brightness(50%);
+}
+
+footer {
+	margin-top: 525px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 10px;
+	background-color: rgb(0, 0, 0);
+	color: white;
+	text-align: center;
+}
+.ldm 
+{
+  margin-left: 25%;
+  height: 100%;
+  width: 50%;
+  margin-top: 5%;
+}
+.CV 
+{
+  margin-left: 25%;
+  height: 100%;
+  width: 50%;
+  margin-top: 5%;
+}
